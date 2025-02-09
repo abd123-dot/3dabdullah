@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Models Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Abdullah's 3D Models</h1>
+    <img src="Abdullah 2.jpeg" alt="">
+  </header>
+  <main>
+    <!-- Featured Truck Model Section -->
+    <section id="featured-truck">
+      <h2>Featured Truck Model</h2>
+      <div class="truck-slider">
+        <!-- Replace these with your truck images (different views) -->
+        <div class="truck-slide active">
+          <img src="Screenshot 2025-02-09 035600.png 22.png" alt="Truck Front View" />
+        </div>
+        <div class="truck-slide">
+          <img src="truck top 2.png" alt="Truck Top View" />
+        </div>
+        <div class="truck-slide">
+          <img src="Screenshot 2025-02-09 034837.png 12.png" alt="Truck View" />
+        </div>
+      </div>
+      <div class="truck-details">
+        <h3>Truck Model Details</h3>
+        <p>
+          A heavy-duty truck designed with precision and excellence. Features include:
+        </p>
+        <ul>
+          <li>Robust engine for unmatched performance</li>
+          <li>Aerodynamic design for enhanced efficiency</li>
+          <li>State-of-the-art suspension system</li>
+          <li>Modern LED lighting and advanced control systems</li>
+          <li>Intricate mechanical design with innovative engineering</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Other Models Gallery -->
+    <section class="gallery">
+      <div class="model-card" data-name="House Model" data-description="A beautiful house designed in SolidWorks." data-image="house.png">
+        <img src="house.png" alt="House Model" />
+        <p>House Model</p>
+      </div>
+      <div class="model-card" data-name="Fan Model" data-description="A detailed fan model with realistic blades." data-image="fan.png">
+        <img src="fan.png" alt="Fan Model" />
+        <p>Fan Model</p>
+      </div>
+      <div class="model-card" data-name="Dais Model" data-description="A stage dais, perfect for events." data-image="dais.png">
+        <img src="dais.png" alt="Dais Model" />
+        <p>Dais Model</p>
+      </div>
+      <div class="model-card" data-name="Boat Model" data-description="Sleek modern boat model with innovative design, high-speed performance." data-image="boat.png">
+        <img src="boat.png" alt="Bookshelf Model" />
+        <p>Boat Model</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal for Gallery Model Details -->
+  <div id="model-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-image" src="" alt="Model Image" />
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+  <h4><i>ALL RIGHTS RESERVED</i></h4>
+</footer>
+</html>
